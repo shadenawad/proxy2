@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.pcap4j.test.packet.IcmpV6RouterSolicitationPacketTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.pcap4j.test.packet.IcmpV6RouterSolicitationPacketTest

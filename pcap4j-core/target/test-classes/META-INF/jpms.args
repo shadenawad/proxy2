@@ -1,0 +1,4 @@
+--patch-module
+org.pcap4j.core=_
+--add-reads
+org.pcap4j.core=ALL-UNNAMED

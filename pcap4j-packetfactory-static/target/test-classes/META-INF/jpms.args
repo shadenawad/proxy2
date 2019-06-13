@@ -1,0 +1,4 @@
+--patch-module
+org.pcap4j.packetfactory.statik=_
+--add-reads
+org.pcap4j.packetfactory.statik=ALL-UNNAMED

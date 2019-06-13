@@ -1,0 +1,111 @@
+12:23:10.129 [main] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 0.993, based on libpcap version 1.9.1-PRE-GIT
+12:23:10.140 [main] WARN  org.pcap4j.util.PropertiesLoader - org/pcap4j/pcap4j.properties not found.
+12:23:10.141 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+12:23:10.151 [main] WARN  o.p.packet.factory.PacketFactories - No PacketFactoryBinder is available. All packets will be captured as UnknownPacket.
+12:23:10.209 [main] INFO  org.pcap4j.core.PcapDumperTest - initialPosition: 24
+12:23:10.209 [main] DEBUG org.pcap4j.core.PcapDumper - Dumping a packet: [Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: fe:00:00:00:00:01
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: fe:00:00:00:00:01
+  Source protocol address: /192.0.2.1
+  Destination hardware address: ff:ff:ff:ff:ff:ff
+  Destination protocol address: /192.0.2.2
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+12:23:10.214 [main] DEBUG org.pcap4j.core.PcapDumper - Dumped a packet: ff ff ff ff ff ff fe 00 00 00 00 01 08 06 00 01 08 00 06 04 00 01 fe 00 00 00 00 01 c0 00 02 01 ff ff ff ff ff ff c0 00 02 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+12:23:10.214 [main] INFO  org.pcap4j.core.PcapDumperTest - position: 100
+12:23:10.221 [main] INFO  org.pcap4j.core.PcapDumper - Closed.
+12:23:10.221 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.240 [main] DEBUG org.pcap4j.core.PcapDumper - Dumping a packet: [Ethernet Header (14 bytes)]
+  Destination address: ff:ff:ff:ff:ff:ff
+  Source address: fe:00:00:00:00:01
+  Type: 0x0806 (ARP)
+[ARP Header (28 bytes)]
+  Hardware type: 1 (Ethernet (10Mb))
+  Protocol type: 0x0800 (IPv4)
+  Hardware address length: 6 [bytes]
+  Protocol address length: 4 [bytes]
+  Operation: 1 (REQUEST)
+  Source hardware address: fe:00:00:00:00:01
+  Source protocol address: /192.0.2.1
+  Destination hardware address: ff:ff:ff:ff:ff:ff
+  Destination protocol address: /192.0.2.2
+[Ethernet Pad (18 bytes)]
+  Hex stream: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+12:23:10.241 [main] DEBUG org.pcap4j.core.PcapDumper - Dumped a packet: ff ff ff ff ff ff fe 00 00 00 00 01 08 06 00 01 08 00 06 04 00 01 fe 00 00 00 00 01 c0 00 02 01 ff ff ff ff ff ff c0 00 02 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+12:23:10.246 [main] INFO  org.pcap4j.core.PcapDumper - Closed.
+12:23:10.247 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.253 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.254 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.256 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.258 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.259 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.260 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.262 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.264 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:10.265 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.282 [main] WARN  org.pcap4j.core.Pcaps - Error calling PacketRequest: Couldn't get error message for error (3758096571)
+12:23:11.304 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+12:23:11.304 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+12:23:11.304 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+12:23:11.304 [main] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+12:23:11.327 [main] INFO  org.pcap4j.core.Pcaps - 10 NIF(s) found.
+12:23:11.336 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.339 [main] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+12:23:11.340 [main] INFO  org.pcap4j.core.PcapHandle - Finished loop.
+12:23:11.340 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.341 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.342 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.344 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.345 [main] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+12:23:11.346 [main] INFO  org.pcap4j.core.PcapHandle - Finished loop.
+12:23:11.346 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.348 [main] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+12:23:11.349 [main] INFO  org.pcap4j.core.PcapHandle - Finished loop.
+12:23:11.349 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.351 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.352 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.353 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.355 [main] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+12:23:11.355 [main] INFO  org.pcap4j.core.PcapHandle - Finished loop.
+12:23:11.355 [main] INFO  org.pcap4j.core.PcapHandle - Closed.
+12:23:11.732 [main] WARN  org.pcap4j.core.Pcaps - Error calling PacketRequest: Couldn't get error message for error (3758096571)
+12:23:11.757 [main] INFO  org.pcap4j.core.Pcaps - 10 NIF(s) found.
+12:23:11.758 [main] INFO  o.p.core.PcapNetworkInterfaceTest - Link type: [1 (Ethernet)] handle: [native@0x1d6bc4fdaf0] Open: [true] Filtering Expression: []
+12:23:11.769 [main] INFO  org.pcap4j.core.PcapsTest - 1 (Ethernet) descr: Ethernet
+12:23:11.996 [main] INFO  org.pcap4j.core.PcapsTest - 9 (PPP) name: PPP
+12:23:11.998 [main] INFO  org.pcap4j.core.PcapsTest - 1 (Ethernet) name: EN10MB
+12:23:11.999 [main] INFO  org.pcap4j.core.PcapsTest - 9 (PPP) descr: PPP
+12:23:12.010 [main] INFO  org.pcap4j.core.PcapsTest - err: Operation not permitted
+12:23:12.145 [main] INFO  org.pcap4j.core.PcapsTest - ver: Npcap version 0.993, based on libpcap version 1.9.1-PRE-GIT
+12:23:12.486 [main] WARN  org.pcap4j.core.Pcaps - Error calling PacketRequest: Couldn't get error message for error (3758096571)
+12:23:12.501 [main] INFO  org.pcap4j.core.Pcaps - 10 NIF(s) found.
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{BAF653DB-F358-4E56-BA37-B8F9E495A6AA}] description: [Oracle] address: [/fe80:0:0:0:94d3:7ae6:db1a:eb11] address: [/192.168.56.1] link layer address: [[B@5c86a017] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{95870E11-4226-4031-B730-93DE2E14576C}] description: [NdisWan Adapter] link layer address: [[B@5c7bfdc1] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{05060097-3211-4B1A-B689-BBF7B6C0C0D5}] description: [NdisWan Adapter] link layer address: [[B@5276d6ee] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{A4CE2629-4BDB-47F5-AAE5-0ECA2DB481B6}] description: [NdisWan Adapter] link layer address: [[B@71687585] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{1D6221BF-4785-4D4F-B563-B9A9634228D8}] description: [Microsoft] address: [/fe80:0:0:0:410e:52f2:6c48:a9e2] address: [/10.88.55.196] link layer address: [[B@1807f5a7] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{CA6CE44A-5C7B-4254-BA03-C10962350E89}] description: [Microsoft] address: [/fe80:0:0:0:d8e1:476d:344:f0ec] address: [/fe80:0:0:0:d8e1:476d:344:f0ec] link layer address: [[B@1b919693] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{B9BE0193-FDF4-4593-8D0E-F479C832B291}] description: [Microsoft] address: [/fe80:0:0:0:43c:d2b3:7455:a29c] address: [/fe80:0:0:0:43c:d2b3:7455:a29c] link layer address: [[B@7fb4f2a9] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{DCB17534-975A-4DA0-93D1-5182A694A860}] description: [Microsoft] address: [/fe80:0:0:0:a1ec:dcab:6639:47bd] address: [/fe80:0:0:0:a1ec:dcab:6639:47bd] link layer address: [[B@4dc27487] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{07BE8781-514A-41A3-AF53-FA0795DAA9AD}] description: [MS NDIS 6.0 LoopBack Driver] address: [/fe80:0:0:0:4c6b:b804:a581:7343] address: [/0.0.0.0] link layer address: [[B@6a4f1a55] loopBack: [true]] up: [true]] running: [true]] local: [true]
+12:23:12.502 [main] INFO  org.pcap4j.core.PcapsTest - name: [\Device\NPF_{5EAACD8F-FA6C-49C9-9039-C0DD032CA0D9}] description: [Realtek Ethernet Controller] address: [/fe80:0:0:0:ed8e:526c:6f2:60fa] address: [/192.168.1.244] link layer address: [[B@7dfd3c81] loopBack: [false]] up: [true]] running: [true]] local: [true]
+12:23:12.507 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 2 from cache by org.pcap4j.af.inet
+12:23:12.507 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 2 from cache by org.pcap4j.af.inet
+12:23:12.508 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 17 from cache by org.pcap4j.af.packet
+12:23:12.508 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 17 from cache by org.pcap4j.af.packet
+12:23:12.508 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 18 from cache by org.pcap4j.af.link
+12:23:12.508 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 18 from cache by org.pcap4j.af.link
+12:23:12.508 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 23 from cache by org.pcap4j.af.inet6
+12:23:12.509 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 23 from cache by org.pcap4j.af.inet6
+12:23:12.509 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 12 from cache by org.pcap4j.dlt.raw
+12:23:12.509 [main] DEBUG org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Got 12 from cache by org.pcap4j.dlt.raw
